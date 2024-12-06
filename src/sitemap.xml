@@ -14,12 +14,4 @@
         <priority>0.5</priority>
     </url>
 
-    <url>
-        <loc>https://pathofexile2.cc/blogentry/</loc>
-        <lastmod>2024-12-06</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-
 </urlset>

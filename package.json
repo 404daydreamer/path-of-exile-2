@@ -1,7 +1,7 @@
 {
   "name": "pathofexile2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Path of Exile 2: The Next Generation Free-to-Play Action RPG",
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",

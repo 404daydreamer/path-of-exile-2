@@ -142,11 +142,24 @@
   
   {{ content | safe }}
 
-  <section class="bg-green bg-gradient-to-l from-green to-light">
+  <section class="bg-green bg-gradient-to-l from-green to-light" id="cta">
     <div class="text-center p-8 rounded-lg text-yellow">
         <h2 class="text-2xl font-bold mb-4">{{ translations.cta.title }}</h2>
         <p class="mb-6">{{ translations.cta.description }}</p>
-        <a href="https://store.steampowered.com/app/2302660/Homicipher/" target="_blank" class="w-60 py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">{{ translations.cta.button }}</a>
+        <div class="flex flex-wrap justify-center gap-4 mt-6">
+          <a href="https://store.steampowered.com/app/2694490/Path_of_Exile_2/" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
+            Steam →
+          </a>
+          <a href="https://store.epicgames.com/en-US/p/path-of-exile-2" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
+            Epic Games →
+          </a>
+          <a href="https://www.playstation.com/en-us/games/path-of-exile-2/" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
+            PlayStation 5 →
+          </a>
+          <a href="https://www.xbox.com/en-US/games/store/path-of-exile-2/9ND8N4RW5GHX" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
+            Xbox Series X|S →
+          </a>
+        </div>
     </div>
   </section>
   <footer class="bg-green bg-opacity-80 py-5 flex flex-col justify-center items-center text-center">
@@ -159,9 +172,9 @@
       <a href="{{ '/privacy' | localizeUrl(currentLang) }}" class="text-light">
         {{ translations.footer.privacyPolicy }}
       </a>
-      {# <a href="https://github.com/666de6/pathofexile2" class="ml-4 text-light">
+      <a href="{{ translations.footer.gitlink }}" target="_blank" class="ml-4 text-light">
         {{ translations.footer.github }}
-      </a>    #}
+      </a>   
 
     </p>
   </footer>

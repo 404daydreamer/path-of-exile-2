@@ -27,7 +27,7 @@
           "alt": "Path of Exile 2 Hero Image",
           "title": "Path of Exile 2"
         },
-        "buttonText": "Play Now →"
+        "buttonText": "Get Access Now →"
       },
       "about": {
         "title": "About Path of Exile 2",
@@ -115,15 +115,15 @@
           },
           {
             "title": "New Weapon Types",
-            "content": "Path of Exile 2 introduces new weapon types such as spears, crossbows, and a hybrid ranged/melee spear, enhancing build customization options."
+            "content": "Path of Exile 2 introduces new weapon types such as spears, crossbows, and a hybrid ranged/melee spear, enhancing build customization options in the game."
           },
           {
             "title": "Unique Boss Encounters",
-            "content": "The game features over 100 unique bosses, each with specialized maps and revamped fight mechanics that require critical thinking and skillful movement from players."
+            "content": "Path of Exile 2 features over 100 unique bosses, each with specialized maps and revamped fight mechanics that require critical thinking and skillful movement from players."
           },
           {
             "title": "Cross-Play and Cross-Progression",
-            "content": "The game supports local couch co-op, cross-play, and cross-progression across different platforms, allowing players to use the same character on various consoles or PCs."
+            "content": "Path of Exile 2 supports local couch co-op, cross-play, and cross-progression across different platforms, allowing players to use the same character on various consoles or PCs."
           },
           {
             "title": "Dynamic Environment Interactions",
@@ -157,28 +157,24 @@
           {
             "name": "Sound Aficionado",
             "role": "Multimedia Critic",
-            "content": "The voice acting, music, and updated character models are all outstanding, giving a fresh feel to the game."
+            "content": "The voice acting, music, and updated character models are all outstanding, giving a fresh feel to Path of Exile 2."
           },
           {
             "name": "Efficiency Player",
             "role": "Game Tester",
-            "content": "The game has added some quality of life improvements, like being able to summon quest NPCs directly instead of having to return to town to talk to them."
+            "content": "Path of Exile 2 has added some quality of life improvements, like being able to summon quest NPCs directly instead of having to return to town to talk to them."
           },
           {
             "name": "Content Creator",
             "role": "Game Streamer",
-            "content": "The main storyline takes about 35 to 40 hours, but there's a ton of endgame content after that... it feels like three games in one."
+            "content": "The main storyline of Path of Exile 2 takes about 35 to 40 hours, but there's a ton of endgame content after that... it feels like three games in one."
           }
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions",
+        "title": "Path of Exile 2 FAQs",
         "subtitle": "Get answers to common questions about Path of Exile 2",
         "content": [
-          {
-            "question": "Can I purchase new Supporter Packs on Consoles?",
-            "answer": "Yes, you can purchase new Supporter Packs on consoles."
-          },
           {
             "question": "How do you redeem a key?",
             "answer": "Upon purchasing your first supporter pack that includes an Early Access key, the key will be automatically redeemed on the account the purchase was made."
@@ -197,7 +193,7 @@
           },
           {
             "question": "Will there be wipes during Early Access?",
-            "answer": "No, characters created during this period will be placed in the \"Early Access\" League but will remain separate from the Standard League."
+            "answer": "No, characters created during this period will be placed in the Path of Exile 2 \"Early Access\" League but will remain separate from the Standard League."
           },
           {
             "question": "Will my Path of Exile 1 microtransactions work in Early Access?",
@@ -239,6 +235,7 @@
     "copyright": "All rights reserved.",
     "privacyPolicy": "Privacy Policy",
     "github": "Github",
+    "gitlink": "https://github.com/404daydreamer/path-of-exile-2",
     "terms": "Terms of Service",
     "contact": "Contact Us"
   },

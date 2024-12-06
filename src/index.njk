@@ -23,7 +23,7 @@ layout: base.njk
         <div class="flex flex-col md:flex-row items-center gap-4">
             <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
                 <p class="text-md opacity-75 mb-10 md:text-left">{{ translations.pages.index.hero.content }}</p>
-                <a href="https://store.steampowered.com/app/2694490/Path_of_Exile_2/" class="w-60 py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">{{ translations.pages.index.hero.buttonText }}</a>
+                <a href="/#cta" class="shadow-lg shadow-red w-60 py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">{{ translations.pages.index.hero.buttonText }}</a>
             </div>
             <div class="w-full md:w-1/2 order-first md:order-last">
                 <img src="{{ translations.pages.index.hero.media.url }}" alt="{{ translations.pages.index.hero.media.alt }}" title="{{ translations.pages.index.hero.media.title }}" class="w-3/4 m-auto rounded-lg shadow-lg mb-4">
@@ -85,13 +85,13 @@ layout: base.njk
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.reviews.subtitle }}</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {% for review in translations.pages.index.reviews.content %}
-            <div class="feature-card p-6 bg-white bg-opacity-20 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
+            <div class="feature-card p-6 bg-light bg-opacity-20 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
                 <div class="flex flex-col items-center mb-4">
-                    <div class="pb-4 border-b border-red border-opacity-50 text-center">
+                    <div class="pb-4 border-b border-light border-opacity-50 text-center">
                         <h3 class="text-sm font-bold text-nature">{{ review.name }}</h3>
                         <p class="text-sm">{{ review.role }}</p>
                     </div>
-                    <div class="flex text-yellow text-2xl mt-2">★★★★★</div>
+                    <div class="flex text-yellow text-2xl mt-2 text-light">★★★★★</div>
                 </div>
                 <p class="text-sm opacity-75 text-center">{{ review.content }}</p>
             </div>
@@ -102,9 +102,9 @@ layout: base.njk
     <section id="faq" class="mt-32 text-center">
         <h2 class="text-2xl font-bold mb-4 text-center">{{ translations.pages.index.faq.title }}</h2>
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.faq.subtitle }}</p>
-        <div class="md:grid md:grid-cols-2 md:gap-12 bg-white bg-opacity-20 p-8 rounded-lg">
+        <div class="md:grid md:grid-cols-2 md:gap-12 bg-opacity-20 p-8 rounded-lg">
             {% for item in translations.pages.index.faq.content %}
-            <div class="pb-4 border-b border-red border-opacity-50">
+            <div class="py-4 border-b border-light border-opacity-50">
                 <h3 class="text-sm font-bold">{{ item.question }}</h3>
                 <p class="mt-2 text-sm opacity-75">{{ item.answer }}</p>
             </div>
