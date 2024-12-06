@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "locale": "en",
+    "language": "English"
+  },
+  "navigation": {
+    "path": "/",
+    "navbar": [
+      {
+        "title": "Home",
+        "url": "/"
+      }
+
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Path of Exile 2: The Next Generation Free-to-Play Action RPG",
+      "description": "Path of Exile 2 is a groundbreaking action RPG sequel with a new campaign, revamped skills, and enhanced customization, set 20 years after the original.",
+      "hero": {
+        "title": "Path of Exile 2: The Next Generation Free-to-Play Action RPG",
+        "content": "In Path of Exile 2, players will face an ancient evil threatening Wraeclast. The campaign includes seven acts, featuring new areas, towns, and characters, alongside some returning favorites. The game features six new character classes, each with two Ascendancy classes available at launch. Players can expect deep build crafting opportunities as they progress through the game.",
+        "media": {
+          "url": "/assets/hero.jpeg",
+          "alt": "Path of Exile 2 Hero Image",
+          "title": "Path of Exile 2"
+        },
+        "buttonText": "Play Now →"
+      },
+      "about": {
+        "title": "About Path of Exile 2",
+        "content": [
+          "Path of Exile 2 is a sequel to the original Path of Exile, set 20 years after the original. Initially planned as a graphics update, it evolved into a standalone game to preserve the original gameplay.",
+          "Both games coexist, offering unique mechanics and balanced gameplay. The sequel introduces a fresh six-act campaign, a revamped skill gem system, and enhanced character customization with a redesigned passive skill tree, including dual specialization."
+        ]
+      },
+      "gameplay": {
+        "title": "Dive Into the World of Path of Exile 2",
+        "subtitle": "Experience enhanced combat mechanics and innovative gameplay systems",
+        "content": [
+          {
+            "title": "Visceral Combat",
+            "content": "Path of Exile 2 emphasizes smooth melee combat, allowing for retargeting during ability animations. This enhances movement freedom and enables players to correct misses during combat, making Path of Exile 2's combat system truly visceral.",
+            "media": {
+              "url": "/assets/delirium.jpeg",
+              "alt": "Visceral Combat System",
+              "title": "Combat Mechanics"
+            }
+          },
+          {
+            "title": "Ability Cost Mechanics",
+            "content": "In Path of Exile 2, the resource cost of using abilities is now spread across the full animation time, reducing penalties for canceling abilities mid-animation. This change enhances combat fluidity and allows for more strategic gameplay.",
+            "media": {
+              "url": "/assets/skill-system.jpeg",
+              "alt": "Ability Cost System",
+              "title": "Ability Mechanics"
+            }
+          },
+          {
+            "title": "Dodge Rolling Mechanic",
+            "content": "All characters in Path of Exile 2 have access to a dodge roll that cancels current actions and animations. It allows players to avoid projectiles and strikes but does not increase movement speed. Dodge rolling is crucial for evasion during boss fights.",
+            "media": {
+              "url": "/assets/ritual.jpeg",
+              "alt": "Dodge Rolling System",
+              "title": "Dodge Mechanics"
+            }
+          },
+          {
+            "title": "Accuracy Rating",
+            "content": "In Path of Exile 2, accuracy rating determines the hit chance of an attack, which is influenced by character gear and the passive skill tree. Monsters' evasion is based on their level and modifiers, and specific mechanics can bypass accuracy requirements.",
+            "media": {
+              "url": "/assets/expedition.jpeg",
+              "alt": "Accuracy Rating System",
+              "title": "Accuracy Mechanics"
+            }
+          },
+          {
+            "title": "Spirit Resource",
+            "content": "Path of Exile 2 introduces a new resource called Spirit, which is used for reservation skills and maintaining permanent minions. Spirit comes primarily from equipment modifiers and the passive skill tree.",
+            "media": {
+              "url": "/assets/sekhemas.jpeg",
+              "alt": "Spirit Resource System",
+              "title": "Spirit Mechanics"
+            }
+          },
+          {
+            "title": "Leech Mechanic",
+            "content": "The leech system in Path of Exile 2 has been simplified, with two main modifiers: damage dealt percentage and leech resistance on monsters. This balances character damage growth against monster resistance.",
+            "media": {
+              "url": "/assets/uber.jpeg",
+              "alt": "Leech System",
+              "title": "Leech Mechanics"
+            }
+          },
+          {
+            "title": "Energy Shield Recovery",
+            "content": "In Path of Exile 2, energy shield recovers at a rate of 33.3% per second after four seconds without taking damage. Poison and bleeding damage bypass energy shield, hitting life directly.",
+            "media": {
+              "url": "/assets/trial-of-the-chaos-god.jpeg",
+              "alt": "Energy Shield System",
+              "title": "Shield Mechanics"
+            }
+          }
+        ]
+      },
+      "ingame": {
+        "title": "Explore More Fun Features of Path of Exile 2",
+        "subtitle": "Discover the extensive features that await you",
+        "content": [
+          {
+            "title": "Skill Gem System Overhaul",
+            "content": "The skill gem system has been completely reworked. Skill gems are now linked directly to characters rather than gear, allowing support gems to be attached directly to skill gems, which simplifies build diversity."
+          },
+          {
+            "title": "New Weapon Types",
+            "content": "Path of Exile 2 introduces new weapon types such as spears, crossbows, and a hybrid ranged/melee spear, enhancing build customization options."
+          },
+          {
+            "title": "Unique Boss Encounters",
+            "content": "The game features over 100 unique bosses, each with specialized maps and revamped fight mechanics that require critical thinking and skillful movement from players."
+          },
+          {
+            "title": "Cross-Play and Cross-Progression",
+            "content": "The game supports local couch co-op, cross-play, and cross-progression across different platforms, allowing players to use the same character on various consoles or PCs."
+          },
+          {
+            "title": "Dynamic Environment Interactions",
+            "content": "Players must navigate skillfully through boss stages using the new dodge mechanic while avoiding attacks, favoring precise movements over simple gear checks."
+          },
+          {
+            "title": "Enhanced Visuals and Animations",
+            "content": "Combat animations have been improved to create a more fluid and responsive feel, making each weapon feel distinct in terms of functionality during battles."
+          }
+        ]
+      },
+      "reviews": {
+        "title": "What Players Say About Path of Exile 2",
+        "subtitle": "What players and critics are saying",
+        "content": [
+          {
+            "name": "Game Connoisseur",
+            "role": "Veteran Player",
+            "content": "Path of Exile 2 isn't just an excellent game; it's a groundbreaking achievement. It builds upon its predecessor, setting a new standard for action RPGs."
+          },
+          {
+            "name": "RPG Enthusiast",
+            "role": "Gaming Blogger",
+            "content": "The core gameplay feels both familiar and refreshingly new. Where Path of Exile 2 truly shines is in the depth and breadth of its content."
+          },
+          {
+            "name": "Skill Tree Expert",
+            "role": "Game Strategy Analyst",
+            "content": "Its famous massive skill tree and labyrinthine maps elevate the gaming experience to a scale few games dare to attempt."
+          },
+          {
+            "name": "Sound Aficionado",
+            "role": "Multimedia Critic",
+            "content": "The voice acting, music, and updated character models are all outstanding, giving a fresh feel to the game."
+          },
+          {
+            "name": "Efficiency Player",
+            "role": "Game Tester",
+            "content": "The game has added some quality of life improvements, like being able to summon quest NPCs directly instead of having to return to town to talk to them."
+          },
+          {
+            "name": "Content Creator",
+            "role": "Game Streamer",
+            "content": "The main storyline takes about 35 to 40 hours, but there's a ton of endgame content after that... it feels like three games in one."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Get answers to common questions about Path of Exile 2",
+        "content": [
+          {
+            "question": "Can I purchase new Supporter Packs on Consoles?",
+            "answer": "Yes, you can purchase new Supporter Packs on consoles."
+          },
+          {
+            "question": "How do you redeem a key?",
+            "answer": "Upon purchasing your first supporter pack that includes an Early Access key, the key will be automatically redeemed on the account the purchase was made."
+          },
+          {
+            "question": "When will I be able to download the client?",
+            "answer": "The game can be pre-loaded starting from December 5th at 5 pm Pacific Standard Time."
+          },
+          {
+            "question": "What content is included in Early Access?",
+            "answer": "Path of Exile 2 Early Access will include 3 Acts, the Atlas endgame, 50 bosses, and 400 monster types."
+          },
+          {
+            "question": "Is couch co-op available in Early Access?",
+            "answer": "Yes, couch co-op is available on a single account at launch."
+          },
+          {
+            "question": "Will there be wipes during Early Access?",
+            "answer": "No, characters created during this period will be placed in the \"Early Access\" League but will remain separate from the Standard League."
+          },
+          {
+            "question": "Will my Path of Exile 1 microtransactions work in Early Access?",
+            "answer": "Yes, Path of Exile 1 transactions will be ported over to Path of Exile 2."
+          },
+          {
+            "question": "Does Path of Exile 2 feature cross-play?",
+            "answer": "Yes, it supports complete cross-play across different platforms."
+          },
+          {
+            "question": "Is there an offline mode for Path of Exile 2?",
+            "answer": "No, Path of Exile 2 is strictly an online experience requiring a stable internet connection to play on both PC and consoles."
+          }
+        ]
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy | Path of Exile 2",
+      "description": "Privacy policy for Path of Exile 2. Learn how we protect your information while you explore our content about this unique horror language deciphering game."
+    }
+  },
+  "common": {
+    "playNow": "Play Now",
+    "readMore": "Read More",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+    
+  },
+  "cta": {
+    "title": "Get Path of Exile 2 Today",
+    "description": "Explore thrilling new worlds and prepare for the adventures of Path of Exile 2!",
+    "button": "Download Now →"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "github": "Github",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select Language",
+    "currentLanguage": "English"
+  }
+}
