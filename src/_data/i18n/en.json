@@ -177,36 +177,56 @@
         "subtitle": "Get answers to common questions about Path of Exile 2",
         "content": [
           {
-            "question": "How do you redeem a key?",
-            "answer": "Upon purchasing your first supporter pack that includes an Early Access key, the key will be automatically redeemed on the account the purchase was made."
+            "question": "When does Path of Exile 2 Early Access start?",
+            "answer": "Path of Exile 2 launches in Early Access on December 6th at 11am PST (December 7th, 3:00 AM GMT+8) across all supported platforms including PC (standalone, Steam, Epic Games Store), Xbox Series X|S, and PlayStation 5. Note that MacOS support is not available at launch but is planned for the future."
           },
           {
-            "question": "When will I be able to download the client?",
-            "answer": "The game can be pre-loaded starting from December 5th at 5 pm Pacific Standard Time."
+            "question": "How can I join Early Access?",
+            "answer": "You can join Path of Exile 2 Early Access by purchasing one of the new Early Access Supporter Packs. Additionally, players who have previously spent $480 USD on a single platform will automatically receive access."
+          },
+          {
+            "question": "How do you redeem an Early Access key?",
+            "answer": "When you purchase a supporter pack that includes Path of Exile 2 Early Access, the key is automatically redeemed on your account. For example, if you purchase through the website, you'll be able to claim a key for your Steam library."
+          },
+          {
+            "question": "When can I download the game client?",
+            "answer": "The standalone PC client for Path of Exile 2 will be available for pre-download starting December 5th at 5pm PST. Xbox pre-download is already available, and other platforms will follow shortly before launch."
           },
           {
             "question": "What content is included in Early Access?",
-            "answer": "Path of Exile 2 Early Access will include 3 Acts, the Atlas endgame, 50 bosses, and 400 monster types."
+            "answer": "Path of Exile 2 Early Access includes the first three acts of the campaign, the Atlas endgame system, over 50 unique boss encounters, and more than 400 different monster types to challenge."
           },
           {
-            "question": "Is couch co-op available in Early Access?",
-            "answer": "Yes, couch co-op is available on a single account at launch."
+            "question": "Are Supporter Packs available on consoles?",
+            "answer": "Yes, Path of Exile 2 Early Access Supporter Packs are available on Xbox now, with PlayStation Store availability starting December 6th PST. Console purchases include access to both PoE 1 and PoE 2 content."
           },
           {
-            "question": "Will there be wipes during Early Access?",
-            "answer": "No, characters created during this period will be placed in the Path of Exile 2 \"Early Access\" League but will remain separate from the Standard League."
+            "question": "Will there be microtransactions in Early Access?",
+            "answer": "Yes, Path of Exile 2 will feature a selection of microtransactions from the original game during Early Access. New microtransactions specific to PoE 2 will be added in future updates."
           },
           {
             "question": "Will my Path of Exile 1 microtransactions work in Early Access?",
             "answer": "Yes, Path of Exile 1 transactions will be ported over to Path of Exile 2."
           },
           {
+            "question": "Will there be wipes during Early Access?",
+            "answer": "No, characters created during this period will be placed in the Path of Exile 2 \"Early Access\" League but will remain separate from the Standard League."
+          },
+          {
+            "question": "Is couch co-op available in Early Access?",
+            "answer": "Yes, you can play Path of Exile 2 in couch co-op mode on a single account right from the start. The second player will be able to create a character on that account."
+          },
+          {
             "question": "Does Path of Exile 2 feature cross-play?",
-            "answer": "Yes, it supports complete cross-play across different platforms."
+            "answer": "Yes, it supports complete cross-play across different platforms. Including PC, Xbox Series X|S, and PlayStation 5."
           },
           {
             "question": "Is there an offline mode for Path of Exile 2?",
             "answer": "No, Path of Exile 2 is strictly an online experience requiring a stable internet connection to play on both PC and consoles."
+          },
+          {
+            "question": "Can I stream or share my Early Access gameplay?",
+            "answer": "Yes! Path of Exile 2 Early Access has no NDA, so you're free to stream, share screenshots, and discuss your experiences with the community."
           }
         ]
       }
