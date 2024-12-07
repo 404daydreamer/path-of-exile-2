@@ -100,6 +100,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/sitemap.xml");
   // eleventyConfig.addPassthroughCopy("src/913ecd62501c4b9d83fdb8f54a3e6742.txt");
   // eleventyConfig.addPassthroughCopy("src/ads.txt"); 

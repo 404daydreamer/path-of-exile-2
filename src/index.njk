@@ -17,13 +17,16 @@ layout: base.njk
   {% set translations = i18n["en"] %}
 {% endif %}
 
-<main class="bg-green bg-opacity-90 px-10 py-16 text-md mx-auto font-mono">
+<main class="bg-green bg-opacity-90 px-10 py-16 text-md mx-auto font-serif">
     <section class="hero-section text-center">
-        <h1 class="text-2xl md:text-3xl font-black mb-10">{{ translations.pages.index.hero.title }}</h1>
+        <h1 class="text-4xl md:text-6xl font-opsb font-black text-light drop-shadow-red">
+            {{ translations.pages.index.hero.title }}
+        </h1>
+        <p class="text-2xl mb-10 font-opsb font-black bg-clip-text text-transparent bg-gradient-to-r from-light to-red">{{ translations.pages.index.hero.subtitle }}</p>
         <div class="flex flex-col md:flex-row items-center gap-4">
             <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
                 <p class="text-md opacity-75 mb-10 md:text-left">{{ translations.pages.index.hero.content }}</p>
-                <a href="/#cta" class="shadow-lg shadow-red w-60 py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">{{ translations.pages.index.hero.buttonText }}</a>
+                <a href="/#cta" class="shadow-lg shadow-red w-60 py-3 px-6 bg-gradient-to-br from-green to-green via-red animate-gradient-x rounded-full font-black hover:scale-110 transition duration-300 font-opsb text-light">{{ translations.pages.index.hero.buttonText }}</a>
             </div>
             <div class="w-full md:w-1/2 order-first md:order-last">
                 <img src="{{ translations.pages.index.hero.media.url }}" alt="{{ translations.pages.index.hero.media.alt }}" title="{{ translations.pages.index.hero.media.title }}" class="w-3/4 m-auto rounded-lg shadow-lg mb-4">
@@ -36,7 +39,7 @@ layout: base.njk
             <img src="/assets/pathofexile2.webp" class="absolute inset-0 w-full h-96 object-cover filter blur-3xl" alt="Path of Exile 2 Background">
             <div class="absolute inset-0 flex items-center justify-center">
                 <div class="p-4 md:p-8 lg:p-12">
-                    <h2 class="text-2xl font-bold mb-4 md:mb-6">{{ translations.pages.index.about.title }}</h2>
+                    <h2 class="text-2xl font-opsb text-light font-bold mb-4 md:mb-6">{{ translations.pages.index.about.title }}</h2>
                     <div class="text-md opacity-75 space-y-4">
                         {% for paragraph in translations.pages.index.about.content %}
                         <p>{{ paragraph }}</p>
@@ -48,7 +51,7 @@ layout: base.njk
     </section>
 
     <section class="mt-32" id="gameplay">
-        <h2 class="text-2xl font-bold mb-4 text-center">{{ translations.pages.index.gameplay.title }}</h2>
+        <h2 class="text-2xl font-bold mb-2 text-center font-opsb text-light">{{ translations.pages.index.gameplay.title }}</h2>
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.gameplay.subtitle }}</p>
         <div class="flex flex-col gap-8">
             {% for feature in translations.pages.index.gameplay.content %}
@@ -58,7 +61,7 @@ layout: base.njk
                 </div>
                 <div class="w-full md:w-1/2 bg-black bg-opacity-50 flex items-center justify-center {% if loop.index is even %}md:order-1{% endif %}">
                     <div class="text-white p-8">
-                        <h3 class="text-xl font-bold mb-4">{{ feature.title }}</h3>
+                        <h3 class="text-xl font-bold mb-4 font-opsb text-light">{{ feature.title }}</h3>
                         <p class="text-md opacity-75">{{ feature.content }}</p>
                     </div>
                 </div>
@@ -68,12 +71,12 @@ layout: base.njk
     </section>
 
     <section class="mt-32" id="features">
-        <h2 class="text-2xl font-bold mb-4 text-center">{{ translations.pages.index.ingame.title }}</h2>
+        <h2 class="text-2xl font-bold mb-2 text-center font-opsb text-light">{{ translations.pages.index.ingame.title }}</h2>
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.ingame.subtitle }}</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {% for feature in translations.pages.index.ingame.content %}
             <div class="feature-card flex flex-col p-4 rounded-lg bg-gradient-to-br from-green to-green via-light animate-gradient-x transition duration-300 hover:scale-105">
-                <h3 class="text-sm font-bold mb-3">{{ feature.title }}</h3>
+                <h3 class="text-sm font-bold mb-3 font-opsb">{{ feature.title }}</h3>
                 <p class="text-sm opacity-75">{{ feature.content }}</p>
             </div>
             {% endfor %}
@@ -81,7 +84,7 @@ layout: base.njk
     </section>
 
     <section class="mt-32" id="reviews">
-        <h2 class="text-2xl font-bold mb-4 text-center">{{ translations.pages.index.reviews.title }}</h2>
+        <h2 class="text-2xl font-bold mb-2 text-center font-opsb text-light">{{ translations.pages.index.reviews.title }}</h2>
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.reviews.subtitle }}</p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {% for review in translations.pages.index.reviews.content %}
@@ -100,7 +103,7 @@ layout: base.njk
     </section>
 
     <section id="faq" class="mt-32 text-center">
-        <h2 class="text-2xl font-bold mb-4 text-center">{{ translations.pages.index.faq.title }}</h2>
+        <h2 class="text-2xl font-bold mb-2 text-center font-opsb text-light">{{ translations.pages.index.faq.title }}</h2>
         <p class="mb-10 opacity-75 text-md w-full md:w-2/3 mx-auto text-center">{{ translations.pages.index.faq.subtitle }}</p>
         <div class="md:grid md:grid-cols-2 md:gap-12 bg-opacity-20 p-8 rounded-lg">
             {% for item in translations.pages.index.faq.content %}

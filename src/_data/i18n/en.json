@@ -20,7 +20,8 @@
       "title": "Path of Exile 2: The Next Generation Free-to-Play Action RPG",
       "description": "Path of Exile 2 is a groundbreaking action RPG sequel with a new campaign, revamped skills, and enhanced customization, set 20 years after the original.",
       "hero": {
-        "title": "Path of Exile 2: The Next Generation Free-to-Play Action RPG",
+        "title": "Path of Exile 2",
+        "subtitle": "The Next Generation Free-to-Play Action RPG",
         "content": "In Path of Exile 2, players will face an ancient evil threatening Wraeclast. The campaign includes seven acts, featuring new areas, towns, and characters, alongside some returning favorites. The game features six new character classes, each with two Ascendancy classes available at launch. Players can expect deep build crafting opportunities as they progress through the game.",
         "media": {
           "url": "/assets/hero.jpeg",
@@ -227,9 +228,27 @@
     
   },
   "cta": {
-    "title": "Get Path of Exile 2 Today",
-    "description": "Explore thrilling new worlds and prepare for the adventures of Path of Exile 2!",
-    "button": "Download Now →"
+    "title": "Get Path of Exile 2 Early Access",
+    "description": "Get Early Access now and prepare for the adventures of Path of Exile 2!",
+    "button": "Download Now →",
+    "platforms": [
+      {
+        "title": "Steam",
+        "link": "https://store.steampowered.com/app/2694490/Path_of_Exile_2/"
+      },
+      {
+        "title": "Epic Games",
+        "link": "https://store.epicgames.com/en-US/p/path-of-exile-2"
+      },
+      {
+        "title": "PlayStation 5",
+        "link": "https://www.playstation.com/en-us/games/path-of-exile-2/"
+      },
+      {
+        "title": "Xbox Series X|S",
+        "link": "https://www.xbox.com/en-US/games/store/path-of-exile-2/9ND8N4RW5GHX"
+      }
+    ]
   },
   "footer": {
     "copyright": "All rights reserved.",

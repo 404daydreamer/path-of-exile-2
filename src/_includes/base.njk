@@ -58,6 +58,7 @@
  
   <link id="favicon" rel="icon" href="/assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <!-- <link rel="stylesheet" type="text/css" href="./toastify.min.css"> -->
   <!-- <script type="text/javascript" src="./toastify-js.js"></script> -->
   <script src="/js/tailwindcss.js"></script>
@@ -70,6 +71,10 @@
             yellow: '#f7f8f1',
             red: '#560e10',
             light: '#a08553'
+          },
+          fontFamily: {
+            'opsb': ['OptimusPrincepsSemiBold', 'Cinzel', 'Verdana', 'Arial', 'Helvetica', 'sans-serif'],
+            'cinzel': ['Cinzel', 'serif'],
           }
         }
       }
@@ -78,12 +83,12 @@
   </script>
   
 </head>
-<body class="bg-[url('/assets/pathofexile2.webp')] bg-cover w-full max-w-[1000px] m-auto px-4 text-yellow font-mono bg-fixed">
+<body class="bg-[url('/assets/pathofexile2.webp')] bg-cover w-full max-w-[1000px] m-auto px-4 text-yellow font-serif bg-fixed">
   {# FB comment #}
   {# <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script> #}
   {# FB comment #}
-  <header class="bg-green bg-opacity-80 h-20 flex justify-between items-center py-4 px-4 shadow-md sticky top-0 z-[999]">
+  <header class="bg-green bg-opacity-80 h-20 flex justify-between items-center py-4 px-4 shadow-md sticky top-0 z-[999] font-opsb">
     <a href="{{ '/' | localizeUrl(currentLang) }}" alt="Homicipher Game Guide">
         <div class="w-60 font-black text-md flex items-center">
           <div class="w-10 h-10 rounded-full overflow-hidden">
@@ -142,24 +147,18 @@
   
   {{ content | safe }}
 
-  <section class="bg-green bg-gradient-to-l from-green to-light" id="cta">
+  <section class="bg-green bg-gradient-to-l from-light via-green to-light" id="cta">
     <div class="text-center p-8 rounded-lg text-yellow">
-        <h2 class="text-2xl font-bold mb-4">{{ translations.cta.title }}</h2>
-        <p class="mb-6">{{ translations.cta.description }}</p>
+        <h2 class="text-2xl font-bold mb-2 font-opsb text-light">{{ translations.cta.title }}</h2>
+        <p class="mb-6 opacity-75 font-opsb text-light bg-clip-text text-transparent bg-gradient-to-r from-light to-yellow">{{ translations.cta.description }}</p>
         <div class="flex flex-wrap justify-center gap-4 mt-6">
-          <a href="https://store.steampowered.com/app/2694490/Path_of_Exile_2/" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
-            Steam →
+          {% for platform in translations.cta.platforms %}
+          <a href="{{ platform.link }}" target="_blank" class="shadow-lg shadow-red py-3 px-6 bg-gradient-to-br from-green to-green via-red animate-gradient-x rounded-full font-black hover:scale-110 transition duration-300 font-opsb text-light">
+            {{ platform.title }} →
           </a>
-          <a href="https://store.epicgames.com/en-US/p/path-of-exile-2" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
-            Epic Games →
-          </a>
-          <a href="https://www.playstation.com/en-us/games/path-of-exile-2/" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
-            PlayStation 5 →
-          </a>
-          <a href="https://www.xbox.com/en-US/games/store/path-of-exile-2/9ND8N4RW5GHX" class="py-3 px-6 bg-gradient-to-br from-green to-green via-light animate-gradient-x rounded-full font-bold hover:scale-110 transition duration-300">
-            Xbox Series X|S →
-          </a>
+          {% endfor %}
         </div>
+
     </div>
   </section>
   <footer class="bg-green bg-opacity-80 py-5 flex flex-col justify-center items-center text-center">
